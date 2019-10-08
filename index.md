@@ -11,8 +11,8 @@ Assignments and practicals for CSIRO's data school FOCUS program.
 
 > ## Prerequisites
 >
-> * Completion of data school FOCUS units on git, Rstudio, and R (tidyverse)
-> * Access to genuine data, relevant to your own work
+> * Working installations of R, Rstudio, and the tidyverse package
+> * A github user account
 {: .prereq}
 
 {% include links.md %}
