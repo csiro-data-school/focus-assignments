@@ -23,39 +23,46 @@ A data set that relates to your current or future work, that you have permission
 If your typical data set does not meet these suggested parameters, please discuss with your lead facilitator.
 
 ## Task
-> ## 1. 
+> ## 1 
 > Set up a new R project for your work. Make sure your project is 
 > under version control using git. 
 > 
-> **Hint:** [setting up R projects with git] (https://csiro-data-school.github.io/git-rstudio/05-RStudio-intro/index.html)
+> > ## **Hint:** 
+> > [setting up R projects with git] (https://csiro-data-school.github.io/git-rstudio/05-RStudio-intro/index.html)
+> {: .solution}
 {: .challenge}
 
-> ## 2. 
+> ## 2 
 > Establish a suitable directory (folder) structure for organising 
 > your work. 
 > 
-> **Hint:** Here, we discuss project organisation and [directory structures] (https://csiro-data-school.github.io/git-rstudio/02-project-folders/index.html). 
-> This is a guide, not an authoritative list. Which folders to you
-> absolutely need for your project? What folders do you think you 
-> might need in the future?
+> > **Hint:** 
+> > Here, we discuss project organisation and 
+> > [directory structures] (https://csiro-data-school.github.io/git-rstudio/02-project-folders/index.html). 
+> > This is a guide, not an authoritative list. Which folders to you
+> > absolutely need for your project? What folders do you think you 
+> > might need in the future?
+> {: .solution}
 {: .challenge}
 
-> ## 3. 
+> ## 3 
 > Setup github as a remote repository. Link your local and your 
 > remote repository.
 > - what is the difference between git and github? 
 > - why do you want a remote repository?
-> **Hint:** [Instructions] (https://csiro-data-school.github.io/git-rstudio/08-remotes/index.html)
-> (Start reading from 'Create a new repository on GitHub')
+> > ## **Hint:** 
+> > [Instructions] (https://csiro-data-school.github.io/git-rstudio/08-remotes/index.html)
+> > (Start reading from 'Create a new repository on GitHub')
+> {: .solution}
 {: .challenge}
 
-> ## 4. 
+> ## 4 
 > Download your data to the appropriate directory.
 > - Do you want your data available on github? If not, add the path to
 > your data to your .gitignore file
 {: .challenge}
 
-> ## 5. 
+> ## 5 
 > Set up a readme file
 > Consider including:
 > - description of your data, project, and directory structure
@@ -63,7 +70,7 @@ If your typical data set does not meet these suggested parameters, please discus
 > - how to obtain your data 
 {: .challenge}
 
-> ## 6. 
+> ## 6 
 > Create a new R script that loads and tidies your data. Track your work
 > using git.
 > - are there other files your want to stage and commit as well?
@@ -71,7 +78,7 @@ If your typical data set does not meet these suggested parameters, please discus
 > - what format do you want to save your 'tidied' data in?
 {: .challenge}
 
-> ## 7.
+> ## 7
 > Once you are happy with your work, make sure your have pushed
 > everything and submit the URL for your github 
 > repository to your lead facilitator via slack.
