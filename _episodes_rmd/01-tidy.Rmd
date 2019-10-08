@@ -38,7 +38,7 @@ If your typical data set does not meet these suggested parameters, please discus
 > 
 > > **Hint:** 
 > > Here, we discuss project organisation and 
-> > [directory structures] (https://csiro-data-school.github.io/git-rstudio/02-project-folders/index.html). 
+> > [directory structures](https://csiro-data-school.github.io/git-rstudio/02-project-folders/index.html). 
 > > This is a guide, not an authoritative list. Which folders to you
 > > absolutely need for your project? What folders do you think you 
 > > might need in the future?
@@ -51,7 +51,7 @@ If your typical data set does not meet these suggested parameters, please discus
 > - what is the difference between git and github? 
 > - why do you want a remote repository?
 > > ## **Hint:** 
-> > [Instructions] (https://csiro-data-school.github.io/git-rstudio/08-remotes/index.html)
+> > [Instructions](https://csiro-data-school.github.io/git-rstudio/08-remotes/index.html)
 > > (Start reading from 'Create a new repository on GitHub')
 > {: .solution}
 {: .challenge}
