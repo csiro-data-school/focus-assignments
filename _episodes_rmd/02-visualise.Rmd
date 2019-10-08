@@ -1,0 +1,79 @@
+---
+title: Visualise your data
+teaching: 6 to 12 hours #this will display as 'Expected Time'
+exercises: negotiable #this will display as 'Due date'
+questions:
+- completion FOCUS units on git, Rstudio, R, tidyverse, & visualisation
+- access to genuine data you have permission to work with and can share
+- completion of Assignment 1: tidy your data
+objectives:
+- "Learn to map variables to visual aesthetics"
+- "Practice implementing great visualisations with ggplot"
+- "Use visualisation to reveal structure in your data"
+- "Build your storytelling through visualisation skills"
+source: Rmd
+---
+
+```{r chunk_options, include=FALSE}
+source("../bin/chunk-options.R")
+```
+
+## Background
+The process of visualisation can help you understand your data, spot anomalies, reveal structure, and form hypothesis. Visualisation is also a great communication tool. To harness the full benefits of visualisation, you need to be creative, play around, and think outside the box (plot!). This task encourages you to plot your own data in ways you may not have thought of before. 
+
+## Requirements
+* Completion of Assignment 1; this exercise uses your R project and tidy data frame from this exercise. 
+
+## Task
+> ## 1 
+> Open your R project, and pull in order to sync your local git repo and 
+> your github repo. Has anything changed? 
+{: .challenge}
+
+> ## 2 
+> You are going to be making many images. Where will you save them? Do you 
+> need to create any new folders?  
+{: .challenge}
+
+
+> ## 3 
+> Start a new R script for your visualisation work. Where will you save this 
+> script, and what will you call it?
+{: .challenge}
+
+> ## 4
+> Using ggplot, develop visualisations of your data, mapping different
+> visual aesthetics to different variables.
+> * aim for at least 10 visualisations
+> * use only the geoms `geom_point()` and `geom_jitter`
+> * get creative in what variables you put on the x and y axis
+> * use at least 4 aesthetics on each plot
+> > ## Hint
+> > If you have lots of data, you may need to play with transparency (`alpha`)
+> {: .solution}
+{: .challenge}
+
+> ## 5
+> Now, add geom_line or geom_smooth to one of your scatterplots. Does this add 
+> anything? Why / why not? (NOTE: there is no single correct answer here!)
+{: .challenge}
+
+> ## 6 
+> Spend some time developing one of your visualisations, that you believe tells
+> the most interesting story. 
+> - what is the main message in this visualisation?
+> - does your visualisation hide any data? Could it be misleading in any way?
+> Post this visualisation onto Slack for feedback, together with a one 
+> line description of its 'story'. 
+{: .challenge}
+
+> ## 7
+> Make sure you have committed your work and pushed to github. 
+{: .challenge}
+
+
+## Peer assessment
+
+Choose an image in slack. Give some 'one up, one down' (one thing you really like, one thing that could be improved) feedback as a threaded comment on this image. 
+
+Please feel welcome to provide feedback on more than one image if you are feeling inspired!
