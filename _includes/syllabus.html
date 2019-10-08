@@ -50,8 +50,8 @@
         {% if episode.break %}
           Break
         {% else %}
-          {% if episode.questions %}
-            {% for question in episode.questions %}
+          {% if episode.objectives %}
+            {% for question in episode.objectives %}
               {{question|markdownify|strip_html}}
               {% unless forloop.last %}
               <br/>
